@@ -13,3 +13,5 @@ the same time and changes happens in real time.
 - Install the dependencies with *npm install* 
 - Run the node server with **node app.js**
 - Open localhost:8080 in two tabs, the changes made in the canvas will be reflected in the other tab canvas in real time
+- Demo http://html5whiteboard.herokuapp.com/
+	- the real time changes across heroku server might be slow !
