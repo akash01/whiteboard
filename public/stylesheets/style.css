@@ -1,0 +1,46 @@
+body {
+  padding: 10px;
+}
+
+*{
+	margin:0;
+	-webkit-user-select: none;
+	font-family: Georgia, sans-serif;
+}
+canvas{
+	cursor: crosshair;
+	border:black solid 5px;
+	position:absolute;
+	top:75px;
+	left: 15%;
+ }
+
+#my_canvas {
+	z-index: 999;
+}
+
+div#bottom_panel {
+	position: absolute;
+	margin-top: 600px;
+	left: 38%;
+}
+
+#clr div{
+	cursor:pointer;
+	cursor:hand;
+	width:40px;
+	height:35px;
+	float:left;
+}
+
+a#clear {
+	margin-left: 10px;
+}
+
+footer {
+	padding: 1em 0;
+	margin-top: 650px;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
