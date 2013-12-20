@@ -11,4 +11,5 @@ the same time and changes happens in real time.
 - Clone the project
 - Go to the root folder of the project
 - Install the dependencies with *npm install* 
-- then run the node server with **node app.js**
+- Run the node server with **node app.js**
+- Open localhost:8080 in two tabs, the changes made in the canvas will be reflected in the other tab canvas in real time
